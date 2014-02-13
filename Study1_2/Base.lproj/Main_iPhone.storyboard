@@ -42,14 +42,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbm-m9-ngn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lbm-m9-ngn">
                                 <rect key="frame" x="176" y="523" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt3-wV-RDd">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt3-wV-RDd">
                                 <rect key="frame" x="112" y="527" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -59,6 +59,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nxj-fV-Vto" firstAttribute="top" secondItem="wt3-wV-RDd" secondAttribute="bottom" constant="20" id="Ccp-nl-CDg"/>
+                            <constraint firstItem="Lbm-m9-ngn" firstAttribute="leading" secondItem="wt3-wV-RDd" secondAttribute="trailing" constant="22" id="PQA-ls-XSN"/>
+                            <constraint firstItem="wt3-wV-RDd" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="112" id="qrj-gl-yjl"/>
                             <constraint firstItem="nxj-fV-Vto" firstAttribute="top" secondItem="Lbm-m9-ngn" secondAttribute="bottom" constant="15" id="rfF-jR-Whq"/>
                         </constraints>
                         <connections>
