@@ -45,5 +45,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    Scene2ViewController* destination = [segue destinationViewController];
+    destination.labelText = @"Arrived from Scene 1";
+}
+
+- (IBAction)returnedMain:(UIStoryboardSegue*) segue
+{
+    
+}
 
 @end

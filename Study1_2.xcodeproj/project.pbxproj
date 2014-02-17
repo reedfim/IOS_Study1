@@ -22,6 +22,8 @@
 		4310845C18ABA2C800047572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310843B18ABA2C800047572 /* UIKit.framework */; };
 		4310846418ABA2C800047572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4310846218ABA2C800047572 /* InfoPlist.strings */; };
 		4310846618ABA2C800047572 /* Study1_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4310846518ABA2C800047572 /* Study1_2Tests.m */; };
+		439FD8FC18B23CE600D644AD /* Scene2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439FD8FB18B23CE600D644AD /* Scene2ViewController.m */; };
+		439FD8FF18B2420400D644AD /* Scene3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439FD8FE18B2420400D644AD /* Scene3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		4310846118ABA2C800047572 /* Study1_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Study1_2Tests-Info.plist"; sourceTree = "<group>"; };
 		4310846318ABA2C800047572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4310846518ABA2C800047572 /* Study1_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study1_2Tests.m; sourceTree = "<group>"; };
+		439FD8FA18B23CE600D644AD /* Scene2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene2ViewController.h; sourceTree = "<group>"; };
+		439FD8FB18B23CE600D644AD /* Scene2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene2ViewController.m; sourceTree = "<group>"; };
+		439FD8FD18B2420400D644AD /* Scene3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene3ViewController.h; sourceTree = "<group>"; };
+		439FD8FE18B2420400D644AD /* Scene3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,10 @@
 				4310845018ABA2C800047572 /* UIConvertViewController.m */,
 				4310845218ABA2C800047572 /* Images.xcassets */,
 				4310843E18ABA2C800047572 /* Supporting Files */,
+				439FD8FA18B23CE600D644AD /* Scene2ViewController.h */,
+				439FD8FB18B23CE600D644AD /* Scene2ViewController.m */,
+				439FD8FD18B2420400D644AD /* Scene3ViewController.h */,
+				439FD8FE18B2420400D644AD /* Scene3ViewController.m */,
 			);
 			path = Study1_2;
 			sourceTree = "<group>";
@@ -253,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439FD8FC18B23CE600D644AD /* Scene2ViewController.m in Sources */,
+				439FD8FF18B2420400D644AD /* Scene3ViewController.m in Sources */,
 				4310845118ABA2C800047572 /* UIConvertViewController.m in Sources */,
 				4310844818ABA2C800047572 /* AppDelegate.m in Sources */,
 				4310844418ABA2C800047572 /* main.m in Sources */,
@@ -474,6 +486,7 @@
 				4310846B18ABA2C800047572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4310846C18ABA2C800047572 /* Build configuration list for PBXNativeTarget "Study1_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				4310846E18ABA2C800047572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
