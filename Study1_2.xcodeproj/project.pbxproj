@@ -21,8 +21,14 @@
 		4310845C18ABA2C800047572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4310843B18ABA2C800047572 /* UIKit.framework */; };
 		4310846418ABA2C800047572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4310846218ABA2C800047572 /* InfoPlist.strings */; };
 		4310846618ABA2C800047572 /* Study1_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4310846518ABA2C800047572 /* Study1_2Tests.m */; };
-		439FD90218B248B900D644AD /* Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439FD90118B248B900D644AD /* Tab1ViewController.m */; };
-		439FD90518B24AF200D644AD /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 439FD90418B24AF200D644AD /* Tab2ViewController.m */; };
+		4358321518B4ECDA001E06C8 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358321418B4ECDA001E06C8 /* CustomTableViewCell.m */; };
+		4358321818B4ED0C001E06C8 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358321718B4ED0C001E06C8 /* CustomTableViewController.m */; };
+		4358321E18B4F669001E06C8 /* chevy_volt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4358321918B4F669001E06C8 /* chevy_volt.jpg */; };
+		4358321F18B4F669001E06C8 /* mini_clubman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4358321A18B4F669001E06C8 /* mini_clubman.jpg */; };
+		4358322018B4F669001E06C8 /* smart_fortwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4358321B18B4F669001E06C8 /* smart_fortwo.jpg */; };
+		4358322118B4F669001E06C8 /* toyota_venza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4358321C18B4F669001E06C8 /* toyota_venza.jpg */; };
+		4358322218B4F669001E06C8 /* volvo_s60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4358321D18B4F669001E06C8 /* volvo_s60.jpg */; };
+		4358322518B4FB21001E06C8 /* CustomDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4358322418B4FB21001E06C8 /* CustomDetailTableViewController.m */; };
 		439FD90818B24E0D00D644AD /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 439FD90618B24E0D00D644AD /* first.png */; };
 		439FD90918B24E0D00D644AD /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 439FD90718B24E0D00D644AD /* second.png */; };
 /* End PBXBuildFile section */
@@ -56,10 +62,17 @@
 		4310846118ABA2C800047572 /* Study1_2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Study1_2Tests-Info.plist"; sourceTree = "<group>"; };
 		4310846318ABA2C800047572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4310846518ABA2C800047572 /* Study1_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study1_2Tests.m; sourceTree = "<group>"; };
-		439FD90018B248B900D644AD /* Tab1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab1ViewController.h; sourceTree = "<group>"; };
-		439FD90118B248B900D644AD /* Tab1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab1ViewController.m; sourceTree = "<group>"; };
-		439FD90318B24AF200D644AD /* Tab2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab2ViewController.h; sourceTree = "<group>"; };
-		439FD90418B24AF200D644AD /* Tab2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab2ViewController.m; sourceTree = "<group>"; };
+		4358321318B4ECDA001E06C8 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		4358321418B4ECDA001E06C8 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		4358321618B4ED0C001E06C8 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		4358321718B4ED0C001E06C8 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		4358321918B4F669001E06C8 /* chevy_volt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chevy_volt.jpg; path = "../../../../개인자료/개인프로젝트/carImages/chevy_volt.jpg"; sourceTree = "<group>"; };
+		4358321A18B4F669001E06C8 /* mini_clubman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mini_clubman.jpg; path = "../../../../개인자료/개인프로젝트/carImages/mini_clubman.jpg"; sourceTree = "<group>"; };
+		4358321B18B4F669001E06C8 /* smart_fortwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = smart_fortwo.jpg; path = "../../../../개인자료/개인프로젝트/carImages/smart_fortwo.jpg"; sourceTree = "<group>"; };
+		4358321C18B4F669001E06C8 /* toyota_venza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = toyota_venza.jpg; path = "../../../../개인자료/개인프로젝트/carImages/toyota_venza.jpg"; sourceTree = "<group>"; };
+		4358321D18B4F669001E06C8 /* volvo_s60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = volvo_s60.jpg; path = "../../../../개인자료/개인프로젝트/carImages/volvo_s60.jpg"; sourceTree = "<group>"; };
+		4358322318B4FB21001E06C8 /* CustomDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDetailTableViewController.h; sourceTree = "<group>"; };
+		4358322418B4FB21001E06C8 /* CustomDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDetailTableViewController.m; sourceTree = "<group>"; };
 		439FD90618B24E0D00D644AD /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = "../../../../개인자료/개인프로젝트/tabbaricons/first.png"; sourceTree = "<group>"; };
 		439FD90718B24E0D00D644AD /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = "../../../../개인자료/개인프로젝트/tabbaricons/second.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,16 +134,18 @@
 		4310843D18ABA2C800047572 /* Study1_2 */ = {
 			isa = PBXGroup;
 			children = (
+				4358321618B4ED0C001E06C8 /* CustomTableViewController.h */,
+				4358321718B4ED0C001E06C8 /* CustomTableViewController.m */,
 				4310844618ABA2C800047572 /* AppDelegate.h */,
 				4310844718ABA2C800047572 /* AppDelegate.m */,
 				4310844918ABA2C800047572 /* Main_iPhone.storyboard */,
 				4310844C18ABA2C800047572 /* Main_iPad.storyboard */,
 				4310845218ABA2C800047572 /* Images.xcassets */,
 				4310843E18ABA2C800047572 /* Supporting Files */,
-				439FD90018B248B900D644AD /* Tab1ViewController.h */,
-				439FD90118B248B900D644AD /* Tab1ViewController.m */,
-				439FD90318B24AF200D644AD /* Tab2ViewController.h */,
-				439FD90418B24AF200D644AD /* Tab2ViewController.m */,
+				4358321318B4ECDA001E06C8 /* CustomTableViewCell.h */,
+				4358321418B4ECDA001E06C8 /* CustomTableViewCell.m */,
+				4358322318B4FB21001E06C8 /* CustomDetailTableViewController.h */,
+				4358322418B4FB21001E06C8 /* CustomDetailTableViewController.m */,
 			);
 			path = Study1_2;
 			sourceTree = "<group>";
@@ -138,6 +153,11 @@
 		4310843E18ABA2C800047572 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4358321918B4F669001E06C8 /* chevy_volt.jpg */,
+				4358321A18B4F669001E06C8 /* mini_clubman.jpg */,
+				4358321B18B4F669001E06C8 /* smart_fortwo.jpg */,
+				4358321C18B4F669001E06C8 /* toyota_venza.jpg */,
+				4358321D18B4F669001E06C8 /* volvo_s60.jpg */,
 				439FD90618B24E0D00D644AD /* first.png */,
 				439FD90718B24E0D00D644AD /* second.png */,
 				4310843F18ABA2C800047572 /* Study1_2-Info.plist */,
@@ -242,12 +262,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4358321E18B4F669001E06C8 /* chevy_volt.jpg in Resources */,
 				4310844E18ABA2C800047572 /* Main_iPad.storyboard in Resources */,
+				4358322118B4F669001E06C8 /* toyota_venza.jpg in Resources */,
 				4310845318ABA2C800047572 /* Images.xcassets in Resources */,
 				4310844B18ABA2C800047572 /* Main_iPhone.storyboard in Resources */,
 				439FD90918B24E0D00D644AD /* second.png in Resources */,
+				4358322218B4F669001E06C8 /* volvo_s60.jpg in Resources */,
+				4358321F18B4F669001E06C8 /* mini_clubman.jpg in Resources */,
 				4310844218ABA2C800047572 /* InfoPlist.strings in Resources */,
 				439FD90818B24E0D00D644AD /* first.png in Resources */,
+				4358322018B4F669001E06C8 /* smart_fortwo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4358321818B4ED0C001E06C8 /* CustomTableViewController.m in Sources */,
 				4310844818ABA2C800047572 /* AppDelegate.m in Sources */,
+				4358322518B4FB21001E06C8 /* CustomDetailTableViewController.m in Sources */,
+				4358321518B4ECDA001E06C8 /* CustomTableViewCell.m in Sources */,
 				4310844418ABA2C800047572 /* main.m in Sources */,
-				439FD90218B248B900D644AD /* Tab1ViewController.m in Sources */,
-				439FD90518B24AF200D644AD /* Tab2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
